@@ -3,55 +3,53 @@ import "./hero.css";
 
 export const Hero = () => {
   return (
-    <div className="HeroBgImage heroBg ">
-      <div className="container px-6 py-4 mx-auto lg:flex lg:h-128 lg:py-16 ">
-        <div className="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
-          <div className="max-w-lg">
-            <h1 className="heroLarge">Don’t miss amazing offers</h1>
-            <div className="heroSmall py-6">Sign up for our newsletter</div>
-            <div>
-              <div className="py-20">
-                <form>
-                  <div className="relative">
-                    <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+    <div className="HeroBgImage  ">
+      <div className="heroBg">
+        <div className=" container px-6 py-4 mx-auto lg:flex lg:h-128 lg:py-16 ">
+          <div className="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
+            <div className="max-w-lg">
+              <h1 className="heroLarge">Don’t miss amazing offers</h1>
+              <div className="heroSmall py-6">Sign up for our newsletter</div>
+              <div>
+                <div className="py-20">
+                  <form>
+                    <div className="relative">
+                      <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                       <svg
-                        className="w-5 h-5 text-gray-500 dark:text-gray-400"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
+  className="w-6 h-6 text-gray-400 text-blue-400 outline-current"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 496 512">
+  <path
+    d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"
+  ></path>
+</svg>
+                      </div>
+                      <input
+                        type="search"
+                        id="search"
+                        className="round block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50  border border-gray-300 focus:ring-green-400 focus:border-green-400 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Your email address"
+                        required
+                      />
+                      <button
+                        type="submit"
+                        className=" round text-white absolute right-2.5 bottom-2.5 bg-green-500 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium  text-sm px-4 py-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
                       >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                        ></path>
-                      </svg>
+                        Subscribe
+                      </button>
                     </div>
-                    <input
-                      type="search"
-                      id="search"
-                      className="round block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50  border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      placeholder="Your email address"
-                      required
-                    />
-                    <button
-                      type="submit"
-                      className=" round text-white absolute right-2.5 bottom-2.5 bg-green-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium  text-sm px-4 py-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-                    >
-                      Subscribe
-                    </button>
-                  </div>
-                </form>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex heroImage  ">
-        
-          <img className="object-cover w-full max-w-2xl rounded-md lg:h-full"
-                    src="https://s3-alpha-sig.figma.com/img/6b9c/ce3b/cdffb7cac8c5f09057cb20931107b4c3?Expires=1653868800&Signature=LTJVGmmygXwyLiXll-WeuBPR9WGM803PUEdm-K-V3cg5G11nh4WZGXJ4fDn3Jco75GXQ1BoGtG2UyquF5cPVcd-grXDkstiHgimpfjf6EM5DlZ9ciIYFei7KHhyUA48-r2FRz86Et0TZ1P236na40w6dYWSYG-QV1r-yl68uMtwwv8tmGX7p9dBvrYiHouloz0ZUkjndtEDSC1QP23rEsEm1WBOOshq4Kb6ew5DCFJq0g7F3SQvAKY9NIGy94HLWcJh6uiUh5CrFb5r9koc12NLHA92O4t9~4za1OYuk2F8OWJ2Wlr9CVBRYjk~doAe8RCr2WcLjjZVbA--M3ErB6g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="apple watch photo"/>
+          <div className="flex ">
+            <img
+              className=" heroImage  w-full max-w-2xl rounded-md lg:h-full"
+              src="https://s3-alpha-sig.figma.com/img/6b9c/ce3b/cdffb7cac8c5f09057cb20931107b4c3?Expires=1653868800&Signature=LTJVGmmygXwyLiXll-WeuBPR9WGM803PUEdm-K-V3cg5G11nh4WZGXJ4fDn3Jco75GXQ1BoGtG2UyquF5cPVcd-grXDkstiHgimpfjf6EM5DlZ9ciIYFei7KHhyUA48-r2FRz86Et0TZ1P236na40w6dYWSYG-QV1r-yl68uMtwwv8tmGX7p9dBvrYiHouloz0ZUkjndtEDSC1QP23rEsEm1WBOOshq4Kb6ew5DCFJq0g7F3SQvAKY9NIGy94HLWcJh6uiUh5CrFb5r9koc12NLHA92O4t9~4za1OYuk2F8OWJ2Wlr9CVBRYjk~doAe8RCr2WcLjjZVbA--M3ErB6g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+              alt="apple watch photo"
+            />
+          </div>
         </div>
       </div>
     </div>
