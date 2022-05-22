@@ -3,7 +3,7 @@ import "./hero.css";
 
 export const Hero = () => {
   return (
-    <div className="HeroBgImage  ">
+    <div className="HeroBgImage">
       <div className="heroBg">
         <div className=" container px-6 py-4 mx-auto lg:flex lg:h-128 lg:py-16 ">
           <div className="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
