@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.btn_text {
+    height: 20px;
+    left: 211.87px;
+    top: 152.52px;
+    /* NestMart/Heading 6 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    /* identical to box height, or 125% */
+    letter-spacing: -0.0004em;
+    color: #FFFFFF;
+}
+
+.list_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    letter-spacing: -0.0004em;
+    /* NestMart-TextHeading */
+    color: #253D4E;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
