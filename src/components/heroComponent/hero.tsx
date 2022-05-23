@@ -9,9 +9,9 @@ export const Hero = () => {
           <div className="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
             <div className="max-w-lg">
               <h1 className="heroLarge">Don’t miss amazing offers</h1>
-              <div className="heroSmall py-6">Sign up for our newsletter</div>
+              <div className="heroSmall ">Sign up for our newsletter</div>
               <div>
-                <div className="py-20">
+                <div className="heroInput">
                   <form>
                     <div className="relative">
                       <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
