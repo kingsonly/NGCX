@@ -29,9 +29,9 @@ const TopBarComponent = (props: topBarComponentProps) => {
      
     </div>
 
-    <div className="col-span-2">b</div>
+    <div className="col-span-2">Search form goes here </div>
 
-    <div className="col-span-2 flex justify-center">
+    <div className="col-span-2 flex justify-end">
       <div className="flex">
         <div className="mr-[20px]">
           <a href="/">
