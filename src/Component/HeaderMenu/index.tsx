@@ -1,9 +1,9 @@
 import React from "react";
 import "./header.css";
 
-export const HeaderMenu = () => {
+const HeaderMenu = () => {
   return (
-<nav className="flex items-center justify-between flex-wrap bg-white-500 p-6">
+<nav className="flex items-center justify-between flex-wrap bg-white-500 p-3">
 <button
   id="dropdownDefault"
   data-dropdown-toggle="dropdown"
@@ -103,3 +103,5 @@ export const HeaderMenu = () => {
   </svg>
 </button>; */
 }
+
+export default HeaderMenu;

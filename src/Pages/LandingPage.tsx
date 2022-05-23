@@ -3,6 +3,7 @@ import Container from "../Component/GeneralComponent/Container";
 import TopBarComponent from "../Component/TopBarComponent";
 import Hero from "../Component/HeroComponent";
 import NGCXLOGO from "../assets/images/ngcx-logo.png";
+import HeaderMenu from "../Component/HeaderMenu";
 
 
 const LandingPage = () => {
@@ -42,6 +43,12 @@ const LandingPage = () => {
           />
         </Container>
       </header>
+
+      <section className="border-t-2 border-b-2 border-[#E5E5E5]">
+        <Container>
+          <HeaderMenu />
+        </Container>
+      </section>
 
       <section>
         <Container>
