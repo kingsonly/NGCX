@@ -1,5 +1,4 @@
-import React from "react";
-import Layout from "./Layout";
+import Layout from "Layout";
 import {
   BestSellersSection,
   DealForTheDaySection,
@@ -7,7 +6,7 @@ import {
   MapSection,
   PopularProductsSection,
   TopSellingSection,
-} from "./sections";
+} from "sections";
 import { Banner } from "./components";
 import { FooterBanner } from "./assets";
 
@@ -21,11 +20,13 @@ function App() {
         <BestSellersSection />
         <DealForTheDaySection />
         <TopSellingSection />
-        <Banner
-          title="Stay home & get your daily gas needs from us"
-          text="Subscribe to NGCX"
-          img={FooterBanner}
-        />
+        <div className="mt-10">
+          <Banner
+            title="Stay home & get your daily gas needs from us"
+            text="Subscribe to NGCX"
+            img={FooterBanner}
+          />
+        </div>
       </Layout>
     </div>
   );
