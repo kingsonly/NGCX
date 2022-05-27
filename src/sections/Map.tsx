@@ -1,5 +1,5 @@
 
-import { SectionHeading } from 'components'
+import { SectionHeading } from 'Component'
 import React from 'react'
 
 const Map = () => {

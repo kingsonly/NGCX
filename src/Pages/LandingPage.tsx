@@ -3,7 +3,7 @@ import Container from "../Component/GeneralComponent/Container";
 import TopBarComponent from "../Component/TopBarComponent";
 import Hero from "../Component/HeroComponent";
 import NGCXLOGO from "../assets/images/ngcx-logo.png";
-import HeaderMenu from "../Component/HeaderMenu";
+import HeaderMenu from "../Component/HeaderMenu1";
 
 
 const LandingPage = () => {

@@ -1,4 +1,4 @@
-import { PopularCard, SectionHeading } from 'components'
+import { PopularCard, SectionHeading } from 'Component'
 import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';

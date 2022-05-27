@@ -1,5 +1,5 @@
-import { DealOfTheDayCard } from 'components'
-import { SectionHeading } from 'components'
+import { DealOfTheDayCard } from 'Component'
+import { SectionHeading } from 'Component'
 import React from 'react'
 import { FiChevronRight } from 'react-icons/fi'
 

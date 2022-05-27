@@ -1,5 +1,5 @@
 import React, {useState, FC} from 'react';
-import { Iconbutton, Linkbutton, Searchbar } from 'components';
+import { Iconbutton, Linkbutton, Searchbar } from 'Component';
 import { FiUser, FiRefreshCw, FiHeart } from "react-icons/fi"
 import { Logo } from 'assets';
 

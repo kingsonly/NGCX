@@ -1,4 +1,4 @@
-import { SectionHeading, BestSellerCard } from 'components'
+import { SectionHeading, BestSellerCard } from 'Component'
 import React from 'react'
 
 const BestSellers = () => {

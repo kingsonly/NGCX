@@ -1,5 +1,5 @@
 import React from 'react'
-import { Banner } from 'components';
+import { Banner } from 'Component';
 import { HeroBannerImg } from 'assets'
 
 const Hero = () => {
