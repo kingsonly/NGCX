@@ -18,7 +18,7 @@ const items = [
 
 const index = () => {
   return (
-    <div className='flex font-poppins bg-ncgx-white text-gray-600 h-ncgx-60 py-4 px-10 border-b border-gray-200 items-center justify-start'>
+    <div className='flex font-poppins bg-white text-gray-600 h-16 py-4 px-10 items-center justify-start'>
         <DropDownMenu variant='withBg' items={items} icon={<MdOutlineDashboard/>} label="Browse communities" />
         <a href='#' className='text-sm font-bold ml-7'>
             Home

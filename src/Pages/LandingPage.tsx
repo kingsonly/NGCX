@@ -1,9 +1,14 @@
 import * as React from "react";
 import Container from "../Component/GeneralComponent/Container";
 import TopBarComponent from "../Component/TopBarComponent";
-import Hero from "../Component/HeroComponent";
 import NGCXLOGO from "../assets/images/ngcx-logo.png";
-import HeaderMenu from "../Component/HeaderMenu1";
+import PopularProducts from "sections/PopularProducts";
+import BestSellers from "sections/BestSellers";
+import DealForTheDay from "sections/DealForTheDay";
+import TopSelling from "sections/TopSelling";
+import  Hero   from "sections/Hero";
+import { HeaderMenu } from "Component";
+import { MapSection } from "sections";
 
 
 const LandingPage = () => {
@@ -51,8 +56,38 @@ const LandingPage = () => {
       </section>
 
       <section>
-        <Container>
+        <Container className={"2xl:mt-8 md:mt-8 sm:mt-8 mt-8"}>
           <Hero />
+        </Container>
+      </section>
+
+      <section>
+        <Container>
+          <MapSection />
+        </Container>
+      </section>
+
+      <section>
+        <Container>
+          <PopularProducts />
+        </Container>
+      </section>
+
+      <section>
+        <Container>
+          <BestSellers />
+        </Container>
+      </section>
+
+      <section>
+        <Container>
+          <DealForTheDay />
+        </Container>
+      </section>
+      
+      <section>
+        <Container>
+          <TopSelling />
         </Container>
       </section>
 

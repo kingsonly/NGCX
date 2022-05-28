@@ -26,7 +26,7 @@ const SearchInput:FC = () => {
 
 const index = () => {
   return (
-    <div className='border-ncgx-light-green border-2 rounded-md flex items-center w-full py-2'>
+    <div className='border-light-green border-2 rounded-md flex items-center w-full py-2'>
         <DropDownMenu variant='searchDdm' items={items} label={items[0].label} icon={<FiChevronDown size={16}/>} />
         <SearchInput />
     </div>

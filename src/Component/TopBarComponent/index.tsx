@@ -1,3 +1,4 @@
+import { Searchbar } from "Component";
 import * as React from "react";
 //import '../../App.scss';
 
@@ -29,7 +30,9 @@ const TopBarComponent = (props: topBarComponentProps) => {
      
     </div>
 
-    <div className="col-span-2">Search form goes here </div>
+    <div className="col-span-2">
+      <Searchbar/>
+    </div>
 
     <div className="col-span-2 flex justify-end">
       <div className="flex">

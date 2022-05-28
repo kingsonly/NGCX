@@ -21,7 +21,7 @@ export interface DDMItem {
 
 
 const styles = {
-    'withBg': 'bg-ncgx-green text-white font-bold rounded-md',
+    'withBg': 'bg-green text-white font-bold rounded-md',
     'noBg': 'bg-white text-gray-600 font-bold',
     'searchDdm': 'font-light bg-white text-gray-600 font-medium flex-1 w-40'
 }
