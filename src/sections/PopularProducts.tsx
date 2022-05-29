@@ -35,8 +35,33 @@ const tabData = [
     }
 ]
 
-const PopularProducts = () => {
-  return (
+interface ProductList{
+    Image:string;
+    Badge:string;
+    Title:string;
+    Subtitle:string;
+    Price:string;
+    Discount:string;
+    Wishlist:()=>void;
+    Cta:()=>void;
+    Badgetext:string;
+    Size:string;
+    Ratting?:string;
+  
+  }
+
+  interface ProductListComposnetProps{
+    productList?:ProductList[];
+  
+  }
+
+ 
+
+const PopularProducts = (props:ProductListComposnetProps) => {
+
+    const {productList} = props
+    
+   return (
     <div>
         <div>
             <Tabs>
@@ -45,13 +70,30 @@ const PopularProducts = () => {
                     <TabList className={"flex"}>
                         {tabData.map((item) => (
                             <Tab className={"border-none mx-3 text-sm text-ncgx-text-lightgray outline-none cursor-pointer"} key={item.id}>{item.tab}</Tab>
-                        ))}
+                        ))} 
                     </TabList>
                 </div>
 
                 <TabPanel>
-                    <div className='flex'>
-                    <PopularCard  />
+                    <div className='grid gap-4 grid-cols-5'>
+                   {
+                    productList != undefined ? productList.map((value,key) => (
+                        <PopularCard 
+                            Image={value.Image} 
+                            Subtitle = {value.Subtitle}
+                            Price = {value.Price}
+                            Discount = {value.Discount}
+                            Wishlist = {value.Wishlist}
+                            Cta = {value.Cta}
+                            Badgetext = {value.Badgetext}
+                            Size = {value.Size}
+                            Ratting = {value.Ratting}
+                            Badge = {value.Badge}
+                            Title = {value.Title}
+                        />
+                    )):null
+                   } 
+                    
                     </div>
                 </TabPanel>
                 <TabPanel>

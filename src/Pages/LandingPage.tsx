@@ -1,4 +1,4 @@
-import * as React from "react";
+import React,{useState} from "react";
 import Container from "../Component/GeneralComponent/Container";
 import TopBarComponent from "../Component/TopBarComponent";
 import NGCXLOGO from "../assets/images/ngcx-logo.png";
@@ -9,15 +9,118 @@ import TopSelling from "sections/TopSelling";
 import  Hero   from "sections/Hero";
 import { HeaderMenu } from "Component";
 import { MapSection } from "sections";
-
+import { GasCylinder } from 'assets'
 
 const LandingPage = () => {
   
   React.useEffect(() => {
-    console.log("will use")
+    setProductListPopular()
   }, []);
 
+  interface ProductList{
+    Image:string;
+    Badge:string;
+    Title:string;
+    Subtitle:string;
+    Price:string;
+    Discount:string;
+    Wishlist:()=>void;
+    Cta:()=>void;
+    Badgetext:string;
+    Size:string;
+    Ratting?:string;
+  
+  }
+
+
+
+  const [popularProduct,setPopularProduct] = useState<ProductList[]>();
+
+  
   const topBarSearchAction = () => {
+    alert(123)
+  }
+
+  
+  const setProductListPopular = () => {
+    var plist = 
+    [
+      {
+        Image:GasCylinder,
+        Badge:"success",
+        Title:"Ohgas",
+        Subtitle:"LPG",
+        Price:"2500",
+        Discount:"1000",
+        Wishlist:topBarSearchAction,
+        Cta:topBarSearchAction,
+        Badgetext:"-17",
+        Size:"5",
+        Ratting:"4.0",
+      },
+      
+      {
+        Image:GasCylinder,
+        Badge:"danger",
+        Title:"Hasman",
+        Subtitle:"LPG",
+        Price:"2500",
+        Discount:"1000",
+        Wishlist:topBarSearchAction,
+        Cta:topBarSearchAction,
+        Badgetext:"Hot",
+        Size:"8",
+        Ratting:"5.0",
+      },
+
+      {
+        Image:GasCylinder,
+        Badge:"danger",
+        Title:"Hasman",
+        Subtitle:"LPG",
+        Price:"2500",
+        Discount:"1000",
+        Wishlist:topBarSearchAction,
+        Cta:topBarSearchAction,
+        Badgetext:"Hot",
+        Size:"8",
+        Ratting:"5.0",
+      },
+
+      {
+        Image:GasCylinder,
+        Badge:"danger",
+        Title:"Hasman",
+        Subtitle:"LPG",
+        Price:"2500",
+        Discount:"1000",
+        Wishlist:topBarSearchAction,
+        Cta:topBarSearchAction,
+        Badgetext:"Hot",
+        Size:"8",
+        Ratting:"5.0",
+      },
+
+      {
+        Image:GasCylinder,
+        Badge:"danger",
+        Title:"Hasman",
+        Subtitle:"LPG",
+        Price:"2500",
+        Discount:"1000",
+        Wishlist:topBarSearchAction,
+        Cta:topBarSearchAction,
+        Badgetext:"Hot",
+        Size:"8",
+        Ratting:"5.0",
+      },
+    ]
+
+    setPopularProduct(plist)
+
+  }
+
+  const getPopularProduct = () => {
 
   }
   const topBarAccountAction = () => {
@@ -69,7 +172,7 @@ const LandingPage = () => {
 
       <section>
         <Container>
-          <PopularProducts />
+          <PopularProducts productList={popularProduct} />
         </Container>
       </section>
 
