@@ -16,7 +16,7 @@ const items = [
     }
 ]
 
-const index = () => {
+const HeaderMenu = () => {
   return (
     <div className='flex font-poppins bg-white text-gray-600 h-16 py-4 px-10 items-center justify-start'>
         <DropDownMenu variant='withBg' items={items} icon={<MdOutlineDashboard/>} label="Browse communities" />
@@ -34,4 +34,4 @@ const index = () => {
   )
 }
 
-export default index
+export default HeaderMenu
