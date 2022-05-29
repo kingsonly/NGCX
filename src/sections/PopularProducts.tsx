@@ -51,7 +51,7 @@ const PopularProducts = () => {
 
                 <TabPanel>
                     <div className='flex'>
-                        <PopularCard />
+                    <PopularCard  />
                     </div>
                 </TabPanel>
                 <TabPanel>
