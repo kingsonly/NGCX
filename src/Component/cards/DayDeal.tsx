@@ -50,7 +50,7 @@ const DayDeal = () => {
               <p className='font-bold text-xl text-ncgx-green'>&#8358;2.51</p>
               <p className='text-xs text-ncgx-text-lightgray'>&#8358;2.00</p>
             </div>
-            <button className="text-ncgx-green bg-ncgx-extralight-green rounded-md p-1 px-4"><span className='font-bold'>Buy</span> +</button>
+            <button  data-testid="buy-button"   className="text-ncgx-green bg-ncgx-extralight-green rounded-md p-1 px-4"><span className='font-bold'>Buy</span> +</button>
           </div>
         </div>
 
