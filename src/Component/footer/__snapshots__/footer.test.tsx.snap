@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should test input field renders Best Seller correctly 1`] = `
+<footer
+  className="text-gray-400 px-1 md:px-10 py-10 flex flex-wrap md:flex-nowrap justify-between border-b border-b-ncgx-light-green font-poppins"
+>
+  <section>
+    <img
+      alt="logo"
+      className="w-32 h-32"
+      src="test-file-stub"
+    />
+    <ul>
+      <li
+        className="flex items-start mb-3"
+      >
+        <svg
+          color="#49C96D"
+          fill="none"
+          height={20}
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          style={
+            Object {
+              "color": "#49C96D",
+            }
+          }
+          viewBox="0 0 24 24"
+          width={20}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+          />
+          <circle
+            cx="12"
+            cy="10"
+            r="3"
+          />
+        </svg>
+        <p
+          className="ml-5 "
+        >
+          <span
+            className="font-bold"
+          >
+            Address: 
+          </span>
+          <span>
+            Prince Adelowo Adedeji St, Lekki Phase I, Lagos, Nigeria ·
+          </span>
+        </p>
+      </li>
+      <li
+        className="flex items-start mb-3"
+      >
+        <svg
+          color="#49C96D"
+          fill="none"
+          height={20}
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          style={
+            Object {
+              "color": "#49C96D",
+            }
+          }
+          viewBox="0 0 24 24"
+          width={20}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3 18v-6a9 9 0 0 1 18 0v6"
+          />
+          <path
+            d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"
+          />
+        </svg>
+        <p
+          className="ml-5"
+        >
+          <span
+            className="font-bold"
+          >
+            Call Us: 
+          </span>
+          <span>
+            (+234) - 901-888-8818 
+          </span>
+        </p>
+      </li>
+      <li
+        className="flex items-start mb-3"
+      >
+        <svg
+          color="#49C96D"
+          fill="none"
+          height={20}
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          style={
+            Object {
+              "color": "#49C96D",
+            }
+          }
+          viewBox="0 0 24 24"
+          width={20}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="22"
+            x2="11"
+            y1="2"
+            y2="13"
+          />
+          <polygon
+            points="22 2 15 22 11 13 2 9 22 2"
+          />
+        </svg>
+        <p
+          className="ml-5"
+        >
+          <span
+            className="font-bold"
+          >
+            Email: 
+          </span>
+          <span>
+            support@ngcx.ng 
+          </span>
+        </p>
+      </li>
+    </ul>
+  </section>
+  <div>
+    <div
+      className="text-ncgx-text-gray font-bold text-lg my-10"
+    >
+      Company
+    </div>
+    <ul>
+      <li>
+        About us
+      </li>
+      <li>
+        Delivery Imformation
+      </li>
+      <li>
+        Privacy Policy
+      </li>
+    </ul>
+  </div>
+  <div>
+    <div
+      className="text-ncgx-text-gray font-bold text-lg my-10"
+    >
+      Company
+    </div>
+    <ul>
+      <li>
+        About us
+      </li>
+      <li>
+        Delivery Imformation
+      </li>
+      <li>
+        Privacy Policy
+      </li>
+    </ul>
+  </div>
+  <div>
+    <div
+      className="text-ncgx-text-gray font-bold text-lg my-10"
+    >
+      Company
+    </div>
+    <ul>
+      <li>
+        About us
+      </li>
+      <li>
+        Delivery Imformation
+      </li>
+      <li>
+        Privacy Policy
+      </li>
+    </ul>
+  </div>
+  <section>
+    <div
+      className="text-ncgx-text-gray font-bold text-lg my-10"
+    >
+      App & Payment
+    </div>
+    <p>
+      Install NCGX App from App Store or Google Play
+    </p>
+  </section>
+</footer>
+`;
