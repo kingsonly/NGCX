@@ -1,206 +1,444 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Should test input field renders Best Seller correctly 1`] = `
-<footer
-  className="text-gray-400 px-1 md:px-10 py-10 flex flex-wrap md:flex-nowrap justify-between border-b border-b-ncgx-light-green font-poppins"
->
-  <section>
-    <img
-      alt="logo"
-      className="w-32 h-32"
-      src="test-file-stub"
-    />
-    <ul>
-      <li
-        className="flex items-start mb-3"
+exports[`Should Test Footer renders Footer correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <footer
+        class="text-gray-400 px-1 md:px-10 py-10 flex flex-wrap md:flex-nowrap justify-between border-b border-b-ncgx-light-green font-poppins"
       >
-        <svg
-          color="#49C96D"
-          fill="none"
-          height={20}
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          style={
-            Object {
-              "color": "#49C96D",
-            }
-          }
-          viewBox="0 0 24 24"
-          width={20}
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+        <section>
+          <img
+            alt="logo"
+            class="w-32 h-32"
+            src="test-file-stub"
           />
-          <circle
-            cx="12"
-            cy="10"
-            r="3"
-          />
-        </svg>
-        <p
-          className="ml-5 "
-        >
-          <span
-            className="font-bold"
+          <ul>
+            <li
+              class="flex items-start mb-3"
+            >
+              <svg
+                color="#49C96D"
+                fill="none"
+                height="20"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                style="color: rgb(73, 201, 109);"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                />
+                <circle
+                  cx="12"
+                  cy="10"
+                  r="3"
+                />
+              </svg>
+              <p
+                class="ml-5 "
+              >
+                <span
+                  class="font-bold"
+                >
+                  Address: 
+                </span>
+                <span>
+                  Prince Adelowo Adedeji St, Lekki Phase I, Lagos, Nigeria ·
+                </span>
+              </p>
+            </li>
+            <li
+              class="flex items-start mb-3"
+            >
+              <svg
+                color="#49C96D"
+                fill="none"
+                height="20"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                style="color: rgb(73, 201, 109);"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 18v-6a9 9 0 0 1 18 0v6"
+                />
+                <path
+                  d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"
+                />
+              </svg>
+              <p
+                class="ml-5"
+              >
+                <span
+                  class="font-bold"
+                >
+                  Call Us: 
+                </span>
+                <span>
+                  (+234) - 901-888-8818 
+                </span>
+              </p>
+            </li>
+            <li
+              class="flex items-start mb-3"
+            >
+              <svg
+                color="#49C96D"
+                fill="none"
+                height="20"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                style="color: rgb(73, 201, 109);"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line
+                  x1="22"
+                  x2="11"
+                  y1="2"
+                  y2="13"
+                />
+                <polygon
+                  points="22 2 15 22 11 13 2 9 22 2"
+                />
+              </svg>
+              <p
+                class="ml-5"
+              >
+                <span
+                  class="font-bold"
+                >
+                  Email: 
+                </span>
+                <span>
+                  support@ngcx.ng 
+                </span>
+              </p>
+            </li>
+          </ul>
+        </section>
+        <div>
+          <div
+            class="text-ncgx-text-gray font-bold text-lg my-10"
           >
-            Address: 
-          </span>
-          <span>
-            Prince Adelowo Adedeji St, Lekki Phase I, Lagos, Nigeria ·
-          </span>
-        </p>
-      </li>
-      <li
-        className="flex items-start mb-3"
-      >
-        <svg
-          color="#49C96D"
-          fill="none"
-          height={20}
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          style={
-            Object {
-              "color": "#49C96D",
-            }
-          }
-          viewBox="0 0 24 24"
-          width={20}
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3 18v-6a9 9 0 0 1 18 0v6"
-          />
-          <path
-            d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"
-          />
-        </svg>
-        <p
-          className="ml-5"
-        >
-          <span
-            className="font-bold"
+            Company
+          </div>
+          <ul>
+            <li>
+              About us
+            </li>
+            <li>
+              Delivery Imformation
+            </li>
+            <li>
+              Privacy Policy
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div
+            class="text-ncgx-text-gray font-bold text-lg my-10"
           >
-            Call Us: 
-          </span>
-          <span>
-            (+234) - 901-888-8818 
-          </span>
-        </p>
-      </li>
-      <li
-        className="flex items-start mb-3"
-      >
-        <svg
-          color="#49C96D"
-          fill="none"
-          height={20}
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          style={
-            Object {
-              "color": "#49C96D",
-            }
-          }
-          viewBox="0 0 24 24"
-          width={20}
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <line
-            x1="22"
-            x2="11"
-            y1="2"
-            y2="13"
-          />
-          <polygon
-            points="22 2 15 22 11 13 2 9 22 2"
-          />
-        </svg>
-        <p
-          className="ml-5"
-        >
-          <span
-            className="font-bold"
+            Company
+          </div>
+          <ul>
+            <li>
+              About us
+            </li>
+            <li>
+              Delivery Imformation
+            </li>
+            <li>
+              Privacy Policy
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div
+            class="text-ncgx-text-gray font-bold text-lg my-10"
           >
-            Email: 
-          </span>
-          <span>
-            support@ngcx.ng 
-          </span>
+            Company
+          </div>
+          <ul>
+            <li>
+              About us
+            </li>
+            <li>
+              Delivery Imformation
+            </li>
+            <li>
+              Privacy Policy
+            </li>
+          </ul>
+        </div>
+        <section>
+          <div
+            class="text-ncgx-text-gray font-bold text-lg my-10"
+          >
+            App & Payment
+          </div>
+          <p>
+            Install NCGX App from App Store or Google Play
+          </p>
+        </section>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <footer
+      class="text-gray-400 px-1 md:px-10 py-10 flex flex-wrap md:flex-nowrap justify-between border-b border-b-ncgx-light-green font-poppins"
+    >
+      <section>
+        <img
+          alt="logo"
+          class="w-32 h-32"
+          src="test-file-stub"
+        />
+        <ul>
+          <li
+            class="flex items-start mb-3"
+          >
+            <svg
+              color="#49C96D"
+              fill="none"
+              height="20"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              style="color: rgb(73, 201, 109);"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+              />
+              <circle
+                cx="12"
+                cy="10"
+                r="3"
+              />
+            </svg>
+            <p
+              class="ml-5 "
+            >
+              <span
+                class="font-bold"
+              >
+                Address: 
+              </span>
+              <span>
+                Prince Adelowo Adedeji St, Lekki Phase I, Lagos, Nigeria ·
+              </span>
+            </p>
+          </li>
+          <li
+            class="flex items-start mb-3"
+          >
+            <svg
+              color="#49C96D"
+              fill="none"
+              height="20"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              style="color: rgb(73, 201, 109);"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18v-6a9 9 0 0 1 18 0v6"
+              />
+              <path
+                d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"
+              />
+            </svg>
+            <p
+              class="ml-5"
+            >
+              <span
+                class="font-bold"
+              >
+                Call Us: 
+              </span>
+              <span>
+                (+234) - 901-888-8818 
+              </span>
+            </p>
+          </li>
+          <li
+            class="flex items-start mb-3"
+          >
+            <svg
+              color="#49C96D"
+              fill="none"
+              height="20"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              style="color: rgb(73, 201, 109);"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line
+                x1="22"
+                x2="11"
+                y1="2"
+                y2="13"
+              />
+              <polygon
+                points="22 2 15 22 11 13 2 9 22 2"
+              />
+            </svg>
+            <p
+              class="ml-5"
+            >
+              <span
+                class="font-bold"
+              >
+                Email: 
+              </span>
+              <span>
+                support@ngcx.ng 
+              </span>
+            </p>
+          </li>
+        </ul>
+      </section>
+      <div>
+        <div
+          class="text-ncgx-text-gray font-bold text-lg my-10"
+        >
+          Company
+        </div>
+        <ul>
+          <li>
+            About us
+          </li>
+          <li>
+            Delivery Imformation
+          </li>
+          <li>
+            Privacy Policy
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div
+          class="text-ncgx-text-gray font-bold text-lg my-10"
+        >
+          Company
+        </div>
+        <ul>
+          <li>
+            About us
+          </li>
+          <li>
+            Delivery Imformation
+          </li>
+          <li>
+            Privacy Policy
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div
+          class="text-ncgx-text-gray font-bold text-lg my-10"
+        >
+          Company
+        </div>
+        <ul>
+          <li>
+            About us
+          </li>
+          <li>
+            Delivery Imformation
+          </li>
+          <li>
+            Privacy Policy
+          </li>
+        </ul>
+      </div>
+      <section>
+        <div
+          class="text-ncgx-text-gray font-bold text-lg my-10"
+        >
+          App & Payment
+        </div>
+        <p>
+          Install NCGX App from App Store or Google Play
         </p>
-      </li>
-    </ul>
-  </section>
-  <div>
-    <div
-      className="text-ncgx-text-gray font-bold text-lg my-10"
-    >
-      Company
-    </div>
-    <ul>
-      <li>
-        About us
-      </li>
-      <li>
-        Delivery Imformation
-      </li>
-      <li>
-        Privacy Policy
-      </li>
-    </ul>
-  </div>
-  <div>
-    <div
-      className="text-ncgx-text-gray font-bold text-lg my-10"
-    >
-      Company
-    </div>
-    <ul>
-      <li>
-        About us
-      </li>
-      <li>
-        Delivery Imformation
-      </li>
-      <li>
-        Privacy Policy
-      </li>
-    </ul>
-  </div>
-  <div>
-    <div
-      className="text-ncgx-text-gray font-bold text-lg my-10"
-    >
-      Company
-    </div>
-    <ul>
-      <li>
-        About us
-      </li>
-      <li>
-        Delivery Imformation
-      </li>
-      <li>
-        Privacy Policy
-      </li>
-    </ul>
-  </div>
-  <section>
-    <div
-      className="text-ncgx-text-gray font-bold text-lg my-10"
-    >
-      App & Payment
-    </div>
-    <p>
-      Install NCGX App from App Store or Google Play
-    </p>
-  </section>
-</footer>
+      </section>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
