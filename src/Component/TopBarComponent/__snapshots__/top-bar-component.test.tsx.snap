@@ -1,0 +1,452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Top Bar Component renders TopBarComponent correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="grid grid-cols-5 gap-6"
+      >
+        <div
+          class=""
+        >
+          <div
+            class="flex space-x-8"
+          >
+            <div>
+              <img
+                class=""
+                src=".."
+              />
+            </div>
+            <div
+              class="font-['audiowide'] text-[40px] text-[#3F434A]"
+            >
+              NGCX
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-span-2"
+        >
+          <div
+            class="border-light-green border-2 rounded-md flex items-center w-full py-2"
+          >
+            <div
+              class="relative inline-block text-left"
+            >
+              <div>
+                <button
+                  class=" font-light bg-white text-gray-600 font-medium flex-1 w-40 flex items-center justify-center rounded-md px-4 py-2 text-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-gray-500"
+                  id="options-menu"
+                  type="button"
+                >
+                  All Categories
+                  <span
+                    class="ml-3"
+                  >
+                    <svg
+                      fill="none"
+                      height="16"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <polyline
+                        points="6 9 12 15 18 9"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between w-full"
+            >
+              <input
+                class="outline-none px-2  w-full border-l placeholder:text-xs placeholder:text-gray-300"
+                placeholder="Search for items"
+              />
+              <span
+                class="px-4"
+              >
+                <svg
+                  color="lightgrey"
+                  fill="none"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  style="color: lightgrey;"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="11"
+                    cy="11"
+                    r="8"
+                  />
+                  <line
+                    x1="21"
+                    x2="16.65"
+                    y1="21"
+                    y2="16.65"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-span-2 flex justify-end"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="mr-[20px]"
+            >
+              <a
+                href="/"
+              >
+                <svg
+                  class="h-6 w-6 inline-block text-[#253D4E] mr-[4px]"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span
+                  class="text-[16px] font-poppins text-[#7E7E7E]"
+                >
+                  Account
+                </span>
+              </a>
+            </div>
+            <div
+              class="mr-[20px]"
+            >
+              <a
+                href="/"
+              >
+                <svg
+                  class="h-6 w-6 inline-block text-[#253D4E] mr-[4px]"
+                  fill="none"
+                  viewBox="0 0 27 26"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.6287 8.34001L22.0456 7.51349C18.98 2.24706 12.3723 0.235169 6.89188 2.8996V0.883301H5.25195V5.80309H10.1717V4.16316H8.07673C12.7156 2.1954 18.0939 3.98513 20.6287 8.34001Z"
+                    fill="#253D4E"
+                  />
+                  <path
+                    d="M5.66221 21.1169C1.86029 18.0291 0.85963 12.6394 3.2999 8.39272L1.87808 7.57275C-0.905241 12.4195 0.147901 18.5602 4.38717 22.2026H2.38236V23.8425H7.30214V18.9227H5.66221V21.1169Z"
+                    fill="#253D4E"
+                  />
+                  <path
+                    d="M22.8523 11.1885L19.374 14.6676L20.5334 15.827L21.9274 14.4331C21.3806 19.5133 17.0997 23.3688 11.9902 23.383V25.0229C18.0779 25.0069 23.1281 20.3087 23.5829 14.2379L25.172 15.827L26.3314 14.6676L22.8523 11.1885Z"
+                    fill="#253D4E"
+                  />
+                </svg>
+                <span
+                  class="text-[16px] font-poppins text-[#7E7E7E]"
+                >
+                  Compare
+                </span>
+              </a>
+            </div>
+            <div
+              class="mr-[20px]"
+            >
+              <a
+                href="/"
+              >
+                <svg
+                  class="h-6 w-6 inline-block text-[#253D4E] mr-[4px] badge-counter"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span
+                  class="text-[16px] font-poppins text-[#7E7E7E]"
+                >
+                  Wishlist
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="grid grid-cols-5 gap-6"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="flex space-x-8"
+        >
+          <div>
+            <img
+              class=""
+              src=".."
+            />
+          </div>
+          <div
+            class="font-['audiowide'] text-[40px] text-[#3F434A]"
+          >
+            NGCX
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-span-2"
+      >
+        <div
+          class="border-light-green border-2 rounded-md flex items-center w-full py-2"
+        >
+          <div
+            class="relative inline-block text-left"
+          >
+            <div>
+              <button
+                class=" font-light bg-white text-gray-600 font-medium flex-1 w-40 flex items-center justify-center rounded-md px-4 py-2 text-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-gray-500"
+                id="options-menu"
+                type="button"
+              >
+                All Categories
+                <span
+                  class="ml-3"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <polyline
+                      points="6 9 12 15 18 9"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex items-center justify-between w-full"
+          >
+            <input
+              class="outline-none px-2  w-full border-l placeholder:text-xs placeholder:text-gray-300"
+              placeholder="Search for items"
+            />
+            <span
+              class="px-4"
+            >
+              <svg
+                color="lightgrey"
+                fill="none"
+                height="20"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                style="color: lightgrey;"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="11"
+                  cy="11"
+                  r="8"
+                />
+                <line
+                  x1="21"
+                  x2="16.65"
+                  y1="21"
+                  y2="16.65"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-span-2 flex justify-end"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="mr-[20px]"
+          >
+            <a
+              href="/"
+            >
+              <svg
+                class="h-6 w-6 inline-block text-[#253D4E] mr-[4px]"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="text-[16px] font-poppins text-[#7E7E7E]"
+              >
+                Account
+              </span>
+            </a>
+          </div>
+          <div
+            class="mr-[20px]"
+          >
+            <a
+              href="/"
+            >
+              <svg
+                class="h-6 w-6 inline-block text-[#253D4E] mr-[4px]"
+                fill="none"
+                viewBox="0 0 27 26"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.6287 8.34001L22.0456 7.51349C18.98 2.24706 12.3723 0.235169 6.89188 2.8996V0.883301H5.25195V5.80309H10.1717V4.16316H8.07673C12.7156 2.1954 18.0939 3.98513 20.6287 8.34001Z"
+                  fill="#253D4E"
+                />
+                <path
+                  d="M5.66221 21.1169C1.86029 18.0291 0.85963 12.6394 3.2999 8.39272L1.87808 7.57275C-0.905241 12.4195 0.147901 18.5602 4.38717 22.2026H2.38236V23.8425H7.30214V18.9227H5.66221V21.1169Z"
+                  fill="#253D4E"
+                />
+                <path
+                  d="M22.8523 11.1885L19.374 14.6676L20.5334 15.827L21.9274 14.4331C21.3806 19.5133 17.0997 23.3688 11.9902 23.383V25.0229C18.0779 25.0069 23.1281 20.3087 23.5829 14.2379L25.172 15.827L26.3314 14.6676L22.8523 11.1885Z"
+                  fill="#253D4E"
+                />
+              </svg>
+              <span
+                class="text-[16px] font-poppins text-[#7E7E7E]"
+              >
+                Compare
+              </span>
+            </a>
+          </div>
+          <div
+            class="mr-[20px]"
+          >
+            <a
+              href="/"
+            >
+              <svg
+                class="h-6 w-6 inline-block text-[#253D4E] mr-[4px] badge-counter"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="text-[16px] font-poppins text-[#7E7E7E]"
+              >
+                Wishlist
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -29,7 +29,7 @@ describe("Test Utils for top bar component", () => {
   });
 
   test("renders LinkButton correctly", () => {
-    const component = render(<Linkbutton text='Test' ></Linkbutton>)
+    const component = render(<Linkbutton text='Test'></Linkbutton>)
     expect(component).toMatchSnapshot();
   });
 
