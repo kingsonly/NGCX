@@ -70,6 +70,7 @@ Object {
             >
               <input
                 class="outline-none px-2  w-full border-l placeholder:text-xs placeholder:text-gray-300"
+                data-testid="search-input"
                 placeholder="Search for items"
               />
               <span
@@ -267,6 +268,7 @@ Object {
           >
             <input
               class="outline-none px-2  w-full border-l placeholder:text-xs placeholder:text-gray-300"
+              data-testid="search-input"
               placeholder="Search for items"
             />
             <span
