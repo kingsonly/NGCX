@@ -1,26 +1,43 @@
-# Use the latest 2.1 version of CircleCI pipeline process engine.
-# See: https://circleci.com/docs/2.0/configuration-reference
 version: 2.1
 
-# Define a job to be invoked later in a workflow.
-# See: https://circleci.com/docs/2.0/configuration-reference/#jobs
+orbs:
+  heroku: circleci/heroku@0.0.10
+
 jobs:
-  say-hello:
-    # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
-    # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
+  build:
     docker:
-      - image: cimg/base:stable
-    # Add steps to the job
-    # See: https://circleci.com/docs/2.0/configuration-reference/#steps
+      - image: circleci/node:14
+    working_directory: ~/repo
     steps:
       - checkout
+      # install dependencies
       - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
+          name: Install Dependencies
+          command: yarn install
+      - run:
+          name: Run tests
+          command: yarn test
+  deploy-dev:
+    docker:
+        - image: circleci/node:14
+    steps:
+      - checkout
+      # install dependencies and run terraform commands to send image to aws and stage code
+      - setup_remote_docker:
+          version: 20.10.12
+          docker_layer_caching: true
+      - run:
+          name: build and push docker image to heroku
+          command: yarn test
 
-# Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  say-hello-workflow:
+  version: 2
+  ogfza_deploy:
     jobs:
-      - say-hello
+      - build
+      - deploy-dev: # Use the pre-configured job, deploy-via-git
+          requires:
+            - build
+          filters:
+            branches:
+              only: master 
