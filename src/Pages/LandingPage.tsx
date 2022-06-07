@@ -7,8 +7,8 @@ import BestSellers from "sections/BestSellers";
 import DealForTheDay from "sections/DealForTheDay";
 import TopSelling from "sections/TopSelling";
 import  Hero   from "sections/Hero";
-import { HeaderMenu } from "Component";
 import { MapSection } from "sections";
+import HeaderMenu from "Component/HeaderMenu";
 
 
 const LandingPage = () => {

@@ -15,7 +15,7 @@ const items = [
     }
 ]
 
-const SearchInput:FC = () => {
+export const SearchInput:FC = () => {
     return(
         <div className='flex items-center justify-between w-full'>
             <input placeholder='Search for items' className='outline-none px-2  w-full border-l placeholder:text-xs placeholder:text-gray-300'/>
