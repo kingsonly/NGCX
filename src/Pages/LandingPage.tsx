@@ -9,7 +9,7 @@ import TopSelling from "sections/TopSelling";
 import  Hero   from "sections/Hero";
 import { MapSection } from "sections";
 import { GasCylinder } from 'assets'
-import HeaderMenu from "Component/headerMenu";
+import HeaderMenu from "Component/HeaderMenu";
 
 
 const LandingPage = () => {
