@@ -32,7 +32,7 @@ jobs:
 
 workflows:
   version: 2
-  ogfza_deploy:
+  ngcx_deploy:
     jobs:
       - build
       - deploy-dev: # Use the pre-configured job, deploy-via-git
