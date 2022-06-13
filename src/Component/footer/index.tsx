@@ -6,7 +6,7 @@ import { SectionHeading } from "..";
 
 const FooterColData = ["About us", "Delivery Imformation", "Privacy Policy"];
 
-const FooterColumn = () => {
+export const FooterColumn = () => {
   return (
     <div>
       <SectionHeading text="Company" />

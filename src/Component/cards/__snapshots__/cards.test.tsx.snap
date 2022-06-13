@@ -1,0 +1,1430 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should test input field renders Best Seller correctly 1`] = `
+<div
+  className="bg-white hover:border-green border border-gray-200 hover:shadow-lg pt-5 rounded-lg"
+>
+  <div
+    className="flex justify-start"
+  >
+    <div
+      className="bg-tomato rounded-r-full text-white text-xs p-2"
+    >
+      Save 25%
+    </div>
+  </div>
+  <div
+    className="p-7"
+  >
+    <div>
+      <img
+        alt="gas cylinder"
+        className="w-64"
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      className="mt-5"
+    >
+      <div
+        className="mb-5"
+      >
+        <p
+          className="text-sm text-lightgray"
+        >
+          Company
+        </p>
+        <p
+          className="font-bold text-sm text-gray"
+        >
+          PPG
+        </p>
+      </div>
+      <div
+        className="mb-5"
+      >
+        <div
+          className="flex items-center"
+        >
+          <svg
+            color="#F69941"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#F69941",
+              }
+            }
+            viewBox="0 0 576 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+            />
+          </svg>
+          <svg
+            color="#F69941"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#F69941",
+              }
+            }
+            viewBox="0 0 576 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+            />
+          </svg>
+          <svg
+            color="#F69941"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#F69941",
+              }
+            }
+            viewBox="0 0 576 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+            />
+          </svg>
+          <svg
+            color="#F69941"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#F69941",
+              }
+            }
+            viewBox="0 0 576 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+            />
+          </svg>
+          <svg
+            color="#ccc"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#ccc",
+              }
+            }
+            viewBox="0 0 576 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+            />
+          </svg>
+          <span
+            className="ml-4 text-lightgray"
+          >
+            (4.0)
+          </span>
+        </div>
+        <p
+          className="text-lightgray"
+        >
+          5kg
+        </p>
+      </div>
+      <div
+        className="flex w-full justify-between items-center my-5"
+      >
+        <div
+          className="flex items-baseline"
+        >
+          <p
+            className="font-bold text-2xl text-green"
+          >
+            ₦2.51
+          </p>
+          <p
+            className="text-xs text-lightgray"
+          >
+            ₦2.00
+          </p>
+        </div>
+      </div>
+      <div>
+        <div
+          className="bg-white rounded-lg w-72 block m-auto"
+        >
+          <div
+            className="w-full h-2 bg-gray-200 rounded-full mt-3"
+          >
+            <div
+              className="w-3/4 h-full text-center text-xs text-white bg-green-500 rounded-full"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="mt-1"
+      >
+        <p
+          className="text-lightgray"
+        >
+          Sold: 
+          <span>
+            90/120
+          </span>
+        </p>
+      </div>
+      <div
+        className="mt-7"
+      >
+        <button
+          className="flex bg-green hover:bg-mustard text-white w-full justify-center items-center py-3 rounded-md"
+        >
+          <div
+            className="flex items-center justify-center"
+          >
+            <svg
+              fill="none"
+              height={20}
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 24 24"
+              width={20}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="9"
+                cy="21"
+                r="1"
+              />
+              <circle
+                cx="20"
+                cy="21"
+                r="1"
+              />
+              <path
+                d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+              />
+            </svg>
+            <span
+              className="flex-1 ml-3 "
+            >
+              Buy Now
+            </span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should test input field renders Deal of the day correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col items-center"
+      >
+        <img
+          alt="pbg drums"
+          class="rounded-xl w-80 h-60 object-cover"
+          src="test-file-stub"
+        />
+        <div
+          class="-mt-32 flex flex-col justify-center"
+        >
+          <ul
+            class="flex"
+          >
+            <li
+              class="rounded-md p-2 bg-white flex justify-center items-center flex-col mr-3 h-16 w-16"
+            >
+              <span
+                class="text-green text-2xl mb-0 pb-0 font-medium"
+              >
+                05
+              </span>
+              <span
+                class="text-lightgray text-sm"
+              >
+                Days
+              </span>
+            </li>
+            <li
+              class="rounded-md p-2 bg-white flex justify-center items-center flex-col mr-3 h-16 w-16"
+            >
+              <p
+                class="text-green text-2xl mb-0 pb-0 font-medium"
+              >
+                05
+              </p>
+              <span
+                class="text-lightgray text-sm"
+              >
+                Hours
+              </span>
+            </li>
+            <li
+              class="rounded-md p-2 bg-white flex justify-center items-center flex-col mr-3 h-16 w-16"
+            >
+              <p
+                class="text-green text-2xl mb-0 pb-0 font-medium"
+              >
+                05
+              </p>
+              <span
+                class="text-lightgray text-sm"
+              >
+                Mins
+              </span>
+            </li>
+            <li
+              class="rounded-md p-2 bg-white flex justify-center items-center flex-col h-16 w-16"
+            >
+              <p
+                class="text-green text-2xl mb-0 pb-0 font-medium"
+              >
+                05
+              </p>
+              <span
+                class="text-lightgray text-sm"
+              >
+                Sec
+              </span>
+            </li>
+          </ul>
+          <div
+            class="mt-2 bg-white rounded-md p-5 shadow"
+          >
+            <p
+              class="font-bold text-sm text-gray mb-3"
+            >
+              LPG
+            </p>
+            <div
+              class="mb-5"
+            >
+              <div
+                class="flex items-center"
+              >
+                <svg
+                  color="#F69941"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: rgb(246, 153, 65);"
+                  viewBox="0 0 576 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                  />
+                </svg>
+                <svg
+                  color="#F69941"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: rgb(246, 153, 65);"
+                  viewBox="0 0 576 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                  />
+                </svg>
+                <svg
+                  color="#F69941"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: rgb(246, 153, 65);"
+                  viewBox="0 0 576 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                  />
+                </svg>
+                <svg
+                  color="#F69941"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: rgb(246, 153, 65);"
+                  viewBox="0 0 576 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                  />
+                </svg>
+                <svg
+                  color="#ccc"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: rgb(204, 204, 204);"
+                  viewBox="0 0 576 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                  />
+                </svg>
+                <span
+                  class="ml-4 text-lightgray text-xs"
+                >
+                  (4.0)
+                </span>
+              </div>
+              <p
+                class="text-lightgray text-xs mt-1"
+              >
+                5kg
+              </p>
+            </div>
+            <div
+              class="flex w-full justify-between items-center"
+            >
+              <div
+                class="flex items-baseline"
+              >
+                <p
+                  class="font-bold text-xl text-green"
+                >
+                  ₦2.51
+                </p>
+                <p
+                  class="text-xs text-lightgray"
+                >
+                  ₦2.00
+                </p>
+              </div>
+              <button
+                class="text-green bg-extralight-green rounded-md p-1 px-4"
+                data-testid="buy-button"
+              >
+                <span
+                  class="font-bold"
+                >
+                  Buy
+                </span>
+                 +
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col items-center"
+    >
+      <img
+        alt="pbg drums"
+        class="rounded-xl w-80 h-60 object-cover"
+        src="test-file-stub"
+      />
+      <div
+        class="-mt-32 flex flex-col justify-center"
+      >
+        <ul
+          class="flex"
+        >
+          <li
+            class="rounded-md p-2 bg-white flex justify-center items-center flex-col mr-3 h-16 w-16"
+          >
+            <span
+              class="text-green text-2xl mb-0 pb-0 font-medium"
+            >
+              05
+            </span>
+            <span
+              class="text-lightgray text-sm"
+            >
+              Days
+            </span>
+          </li>
+          <li
+            class="rounded-md p-2 bg-white flex justify-center items-center flex-col mr-3 h-16 w-16"
+          >
+            <p
+              class="text-green text-2xl mb-0 pb-0 font-medium"
+            >
+              05
+            </p>
+            <span
+              class="text-lightgray text-sm"
+            >
+              Hours
+            </span>
+          </li>
+          <li
+            class="rounded-md p-2 bg-white flex justify-center items-center flex-col mr-3 h-16 w-16"
+          >
+            <p
+              class="text-green text-2xl mb-0 pb-0 font-medium"
+            >
+              05
+            </p>
+            <span
+              class="text-lightgray text-sm"
+            >
+              Mins
+            </span>
+          </li>
+          <li
+            class="rounded-md p-2 bg-white flex justify-center items-center flex-col h-16 w-16"
+          >
+            <p
+              class="text-green text-2xl mb-0 pb-0 font-medium"
+            >
+              05
+            </p>
+            <span
+              class="text-lightgray text-sm"
+            >
+              Sec
+            </span>
+          </li>
+        </ul>
+        <div
+          class="mt-2 bg-white rounded-md p-5 shadow"
+        >
+          <p
+            class="font-bold text-sm text-gray mb-3"
+          >
+            LPG
+          </p>
+          <div
+            class="mb-5"
+          >
+            <div
+              class="flex items-center"
+            >
+              <svg
+                color="#F69941"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: rgb(246, 153, 65);"
+                viewBox="0 0 576 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                />
+              </svg>
+              <svg
+                color="#F69941"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: rgb(246, 153, 65);"
+                viewBox="0 0 576 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                />
+              </svg>
+              <svg
+                color="#F69941"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: rgb(246, 153, 65);"
+                viewBox="0 0 576 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                />
+              </svg>
+              <svg
+                color="#F69941"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: rgb(246, 153, 65);"
+                viewBox="0 0 576 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                />
+              </svg>
+              <svg
+                color="#ccc"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: rgb(204, 204, 204);"
+                viewBox="0 0 576 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                />
+              </svg>
+              <span
+                class="ml-4 text-lightgray text-xs"
+              >
+                (4.0)
+              </span>
+            </div>
+            <p
+              class="text-lightgray text-xs mt-1"
+            >
+              5kg
+            </p>
+          </div>
+          <div
+            class="flex w-full justify-between items-center"
+          >
+            <div
+              class="flex items-baseline"
+            >
+              <p
+                class="font-bold text-xl text-green"
+              >
+                ₦2.51
+              </p>
+              <p
+                class="text-xs text-lightgray"
+              >
+                ₦2.00
+              </p>
+            </div>
+            <button
+              class="text-green bg-extralight-green rounded-md p-1 px-4"
+              data-testid="buy-button"
+            >
+              <span
+                class="font-bold"
+              >
+                Buy
+              </span>
+               +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Should test input field renders Popular correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg-white hover:border-green border border-[#E5E5E5] hover:shadow-lg pt-5 rounded-lg"
+      >
+        <div
+          class="flex justify-start"
+        >
+          <div
+            class="rounded-r-full text-white text-xs p-2 undefined"
+          >
+            value.Badgetext
+            %
+          </div>
+        </div>
+        <div
+          class="p-7"
+        >
+          <div
+            class="relative"
+          >
+            <img
+              alt="gas cylinder"
+              class="w-64"
+              src="value.Image"
+            />
+            <div
+              class="h-full w-full flex justify-center items-center absolute top-0 left-0"
+            >
+              <div />
+            </div>
+          </div>
+          <div
+            class="mt-5"
+          >
+            <div
+              class="mb-5"
+            >
+              <p
+                class="text-sm text-lightgray"
+              >
+                value.Title
+              </p>
+              <p
+                class="font-bold text-sm text-gray"
+              >
+                value.Subtitle
+              </p>
+            </div>
+            <div
+              class="mb-5"
+            >
+              <div
+                class="flex items-center"
+              >
+                <svg
+                  color="#F69941"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: rgb(246, 153, 65);"
+                  viewBox="0 0 576 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                  />
+                </svg>
+                <svg
+                  color="#F69941"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: rgb(246, 153, 65);"
+                  viewBox="0 0 576 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                  />
+                </svg>
+                <svg
+                  color="#F69941"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: rgb(246, 153, 65);"
+                  viewBox="0 0 576 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                  />
+                </svg>
+                <svg
+                  color="#F69941"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: rgb(246, 153, 65);"
+                  viewBox="0 0 576 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                  />
+                </svg>
+                <svg
+                  color="#ccc"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: rgb(204, 204, 204);"
+                  viewBox="0 0 576 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                  />
+                </svg>
+                <span
+                  class="ml-4 text-lightgray"
+                >
+                  (
+                  value.Ratting
+                  )
+                </span>
+              </div>
+              <p
+                class="text-lightgray"
+              >
+                value.Size
+                kg
+              </p>
+            </div>
+            <div
+              class="flex w-full justify-between items-center"
+            >
+              <div
+                class="flex items-baseline"
+              >
+                <p
+                  class="font-bold text-2xl text-green"
+                >
+                  ₦
+                  value.Price
+                </p>
+                <p
+                  class="text-xs text-lightgray"
+                >
+                  ₦
+                  value.Discount
+                </p>
+              </div>
+              <button
+                class="text-green bg-extra-light-green rounded-md p-2 px-3"
+                data-testid="buy-button"
+              >
+                <span
+                  class="font-bold"
+                >
+                  Buy
+                </span>
+                 +
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="bg-white hover:border-green border border-[#E5E5E5] hover:shadow-lg pt-5 rounded-lg"
+    >
+      <div
+        class="flex justify-start"
+      >
+        <div
+          class="rounded-r-full text-white text-xs p-2 undefined"
+        >
+          value.Badgetext
+          %
+        </div>
+      </div>
+      <div
+        class="p-7"
+      >
+        <div
+          class="relative"
+        >
+          <img
+            alt="gas cylinder"
+            class="w-64"
+            src="value.Image"
+          />
+          <div
+            class="h-full w-full flex justify-center items-center absolute top-0 left-0"
+          >
+            <div />
+          </div>
+        </div>
+        <div
+          class="mt-5"
+        >
+          <div
+            class="mb-5"
+          >
+            <p
+              class="text-sm text-lightgray"
+            >
+              value.Title
+            </p>
+            <p
+              class="font-bold text-sm text-gray"
+            >
+              value.Subtitle
+            </p>
+          </div>
+          <div
+            class="mb-5"
+          >
+            <div
+              class="flex items-center"
+            >
+              <svg
+                color="#F69941"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: rgb(246, 153, 65);"
+                viewBox="0 0 576 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                />
+              </svg>
+              <svg
+                color="#F69941"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: rgb(246, 153, 65);"
+                viewBox="0 0 576 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                />
+              </svg>
+              <svg
+                color="#F69941"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: rgb(246, 153, 65);"
+                viewBox="0 0 576 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                />
+              </svg>
+              <svg
+                color="#F69941"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: rgb(246, 153, 65);"
+                viewBox="0 0 576 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                />
+              </svg>
+              <svg
+                color="#ccc"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: rgb(204, 204, 204);"
+                viewBox="0 0 576 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                />
+              </svg>
+              <span
+                class="ml-4 text-lightgray"
+              >
+                (
+                value.Ratting
+                )
+              </span>
+            </div>
+            <p
+              class="text-lightgray"
+            >
+              value.Size
+              kg
+            </p>
+          </div>
+          <div
+            class="flex w-full justify-between items-center"
+          >
+            <div
+              class="flex items-baseline"
+            >
+              <p
+                class="font-bold text-2xl text-green"
+              >
+                ₦
+                value.Price
+              </p>
+              <p
+                class="text-xs text-lightgray"
+              >
+                ₦
+                value.Discount
+              </p>
+            </div>
+            <button
+              class="text-green bg-extra-light-green rounded-md p-2 px-3"
+              data-testid="buy-button"
+            >
+              <span
+                class="font-bold"
+              >
+                Buy
+              </span>
+               +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Should test input field renders TopSelling correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex h-max mb-5"
+      >
+        <img
+          class="rounded-md h-24 w-24 object-cover"
+          src="test-file-stub"
+        />
+        <div
+          class="flex flex-col justify-between  h-full ml-5"
+        >
+          <p
+            class="font-bold text-sm text-ncgx-text-gray mb-3"
+          >
+            LPG
+          </p>
+          <div
+            class="flex items-center mb-5"
+          >
+            <svg
+              color="#F69941"
+              fill="currentColor"
+              height="10"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(246, 153, 65);"
+              viewBox="0 0 576 512"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+              />
+            </svg>
+            <svg
+              color="#F69941"
+              fill="currentColor"
+              height="10"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(246, 153, 65);"
+              viewBox="0 0 576 512"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+              />
+            </svg>
+            <svg
+              color="#F69941"
+              fill="currentColor"
+              height="10"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(246, 153, 65);"
+              viewBox="0 0 576 512"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+              />
+            </svg>
+            <svg
+              color="#F69941"
+              fill="currentColor"
+              height="10"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(246, 153, 65);"
+              viewBox="0 0 576 512"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+              />
+            </svg>
+            <svg
+              color="#ccc"
+              fill="currentColor"
+              height="10"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(204, 204, 204);"
+              viewBox="0 0 576 512"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+              />
+            </svg>
+            <span
+              class="ml-4 text-ncgx-text-lightgray text-xs"
+            >
+              (4.0)
+            </span>
+          </div>
+          <div
+            class="flex items-baseline"
+          >
+            <p
+              class="font-bold text-xl text-ncgx-green"
+            >
+              ₦2.51
+            </p>
+            <p
+              class="text-xs text-ncgx-text-lightgray"
+            >
+              ₦2.00
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex h-max mb-5"
+    >
+      <img
+        class="rounded-md h-24 w-24 object-cover"
+        src="test-file-stub"
+      />
+      <div
+        class="flex flex-col justify-between  h-full ml-5"
+      >
+        <p
+          class="font-bold text-sm text-ncgx-text-gray mb-3"
+        >
+          LPG
+        </p>
+        <div
+          class="flex items-center mb-5"
+        >
+          <svg
+            color="#F69941"
+            fill="currentColor"
+            height="10"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(246, 153, 65);"
+            viewBox="0 0 576 512"
+            width="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+            />
+          </svg>
+          <svg
+            color="#F69941"
+            fill="currentColor"
+            height="10"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(246, 153, 65);"
+            viewBox="0 0 576 512"
+            width="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+            />
+          </svg>
+          <svg
+            color="#F69941"
+            fill="currentColor"
+            height="10"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(246, 153, 65);"
+            viewBox="0 0 576 512"
+            width="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+            />
+          </svg>
+          <svg
+            color="#F69941"
+            fill="currentColor"
+            height="10"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(246, 153, 65);"
+            viewBox="0 0 576 512"
+            width="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+            />
+          </svg>
+          <svg
+            color="#ccc"
+            fill="currentColor"
+            height="10"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(204, 204, 204);"
+            viewBox="0 0 576 512"
+            width="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+            />
+          </svg>
+          <span
+            class="ml-4 text-ncgx-text-lightgray text-xs"
+          >
+            (4.0)
+          </span>
+        </div>
+        <div
+          class="flex items-baseline"
+        >
+          <p
+            class="font-bold text-xl text-ncgx-green"
+          >
+            ₦2.51
+          </p>
+          <p
+            class="text-xs text-ncgx-text-lightgray"
+          >
+            ₦2.00
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

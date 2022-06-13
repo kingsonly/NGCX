@@ -77,7 +77,7 @@ const PopularProducts = (props:ProductListComposnetProps) => {
                 <TabPanel>
                     <div className='grid gap-4 grid-cols-5'>
                    {
-                    productList != undefined ? productList.map((value,key) => (
+                    productList !== undefined ? productList.map((value,key) => (
                         <PopularCard 
                             Image={value.Image} 
                             Subtitle = {value.Subtitle}

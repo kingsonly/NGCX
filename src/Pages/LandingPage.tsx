@@ -7,9 +7,10 @@ import BestSellers from "sections/BestSellers";
 import DealForTheDay from "sections/DealForTheDay";
 import TopSelling from "sections/TopSelling";
 import  Hero   from "sections/Hero";
-import { HeaderMenu } from "Component";
 import { MapSection } from "sections";
 import { GasCylinder } from 'assets'
+import HeaderMenu from "Component/headerMenu";
+
 
 const LandingPage = () => {
   
@@ -115,7 +116,7 @@ const LandingPage = () => {
         Ratting:"5.0",
       },
     ]
-
+    
     setPopularProduct(plist)
 
   }

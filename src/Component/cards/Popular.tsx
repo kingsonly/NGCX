@@ -104,7 +104,7 @@ const Popular = (props:popularComponentProps) => {
                   <p className='font-bold text-2xl text-green'>&#8358;{Price}</p>
                   <p className='text-xs text-lightgray'>&#8358;{Discount}</p>
                 </div>
-                <button className="text-green bg-extra-light-green rounded-md p-2 px-3" onClick={Cta}><span className='font-bold'>Buy</span> +</button>
+                <button data-testid="buy-button" className="text-green bg-extra-light-green rounded-md p-2 px-3" onClick={Cta}><span className='font-bold'>Buy</span> +</button>
               </div>
             </div>
 
