@@ -13,7 +13,7 @@ const Map = () => {
         height="350"
         style={{ border: "0" }}
         loading="lazy"
-      ></iframe>
+      ></iframe> 
         </div>
     </div>
   )

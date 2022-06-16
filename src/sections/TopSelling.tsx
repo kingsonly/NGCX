@@ -7,7 +7,7 @@ const TopSelling = () => {
         <section>
             <SectionHeading text='Top Selling' />
 
-            <TopSellingCard />
+            <TopSellingCard /> 
             <TopSellingCard />
             <TopSellingCard />
         </section>

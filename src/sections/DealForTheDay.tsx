@@ -13,7 +13,7 @@ const DealForTheDay = () => {
         <main className='flex justify-start'>
             <DealOfTheDayCard />
         </main>
-    </div>
+    </div> 
   )
 }
 
